@@ -1,0 +1,32 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+}
+
+.header-menu {
+    display: flex;
+    flex: 1;
+  }
+
+
+.mainvisual {
+    background-image: url(/img/image08.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 0;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
