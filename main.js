@@ -49,3 +49,11 @@ $(window).on("load",function(){
     GethashID(hashName);
 });
 
+const wrapper = document.getElementById("my-class-wrapper");
+
+wrapper.style.display = "none";
+
+function showMyClass() {
+    const wrapper = document.getElementById("my-class-wrapper");
+    wrapper.style.display = "block";
+}

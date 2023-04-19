@@ -1,16 +1,13 @@
 body {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #fbf9e9;
+    background-color:#f9f2dc;
     font-family: 'Kaisei Decol', serif;
 }
 
-/* .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-size: cover;
-} */
+.header {
+    height: 100px;
+}
 
 .custom-cursor {
     display: none;
@@ -224,12 +221,13 @@ body {
   }
   
   .question h3 {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
     cursor: pointer;
-    border: #999 1px solid;
+    border: #dcd1ba 1px solid;
     padding: 10px;
     border-radius: 5px;
+    background-color: #EADCC9;
   }
   
   .answer {
@@ -241,7 +239,7 @@ body {
   
   .answer p {
     margin-bottom: 0;
-    font-size: 24px;
+    font-size: 20px;
   }
   
   .question.active .answer {
@@ -251,7 +249,8 @@ body {
 
   .about {
     text-align: center;
-    margin: 200px auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
     line-height: 2;
   }
 
@@ -316,7 +315,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }   
 .content2 {
     text-align: center;
@@ -329,26 +328,7 @@ span {
 
 }
 
-/* .button {
-    background-color: #f8f6c5;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-}
 
-.button:active {
-    transform: translateY(2px);
-    box-shadow: 0 2px 2px rgba(0,0,0,0.3);
-}
-
-.button:hover {
-    background-color: #f6e7b9;
-  } */
   
 .tab {
     display: flex;
@@ -357,7 +337,7 @@ span {
 
 .tab li a {
     display: block;
-    background: #ddd;
+    background: #683E20;
     margin: 0 2px;
     padding: 10px 20px;
     border-top-right-radius: 5px;
@@ -366,14 +346,15 @@ span {
 }
 
 .tab li.active a{
-    background: #fff;
+    background: #D6B581;
 }
 
 .area {
     display: none;
     opacity:0;
-    background: #fff;
+    background: #D6B581;
     padding: 50px 20px;
+    color: #fff;
 }
 
 .area.is-active {
@@ -403,7 +384,7 @@ span {
 
 .tab li a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
     display: block;
 }
 
@@ -415,4 +396,33 @@ span {
 .area ul {
     margin-left: 40px;
     line-height: 2;
+}
+.cat {
+    display: flex;
+    justify-content: center;
+}
+
+
+.button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+}
+
+.button-case {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.cat-image:hover {
+  cursor: pointer;
+}
+
+
+.about h2{
+font-size: 20px;
+color: #dc7e1f;
 }
