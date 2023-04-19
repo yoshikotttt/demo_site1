@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My mind</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="wrap">
+
+        <div class="header">
+            <div class="openbtn"><span></span><span></span><span></span></div>
+            <nav id="g-nav">
+                <ul>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">COURSE</a></li>
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="#">ACCESS</a></li>
+                </ul>
+            </nav>
+            <!-- <div class="mainvisual">
+            <p class="title fadeIn">My Mind</p>
+            <p class="subtitle fadeIn">Let's simmer and refine it from here on!</p>
+
+        </div>
+        <div class="theme">
+            <p>これからどんなものを作ろうか</p>
+
+           
+
+        </div> -->
+            <div class="slide">
+                <ul class="slider">
+                    <li><img src="img/image10.jpg" alt=""></li>
+                    <li><img src="img/image9.jpg" alt=""></li>
+                    <li><img src="img/image06.jpg" alt=""></li>
+                    <li><img src="img/image05.jpg" alt=""></li>
+                    <!--/slider-->
+                </ul>
+
+            </div>
+            
+            <div class="qa">
+                Q: 猫ってどうやって鳴くの？ A: 喉の奥で振動を起こすことで鳴く
+                Q: 猫はなぜ高いところが好き？ A: 高いところから周りを見渡せ、安全だと感じるため
+                Q: 猫は水を飲む時どうしてるの？ A: 舌を使って舐める
+                Q: 猫の爪って何のためにあるの？ A: 狩りや自衛、運動のため
+                Q: 猫はなぜ夜に活発になるの？ A: 昼間は眠りがちで、夜に活発になる習性がある
+                Q: 猫の頭突きって何の意味？ A: 愛情表現や、対話の合図として使われる
+
+            </div>
+
+            <div class="faq">
+                <h2>よくある質問</h2>
+                <div class="question">
+                  <h3>質問1: これはサンプルの質問ですか？</h3>
+                  <div class="answer">
+                    <p>はい、これはサンプルの質問です。</p>
+                  </div>
+                </div>
+                <div class="question">
+                  <h3>質問2: もう一つのサンプルの質問は何ですか？</h3>
+                  <div class="answer">
+                    <p>もう一つのサンプルの質問はありません。</p>
+                  </div>
+                </div>
+              </div>
+              
+            <div class="form">
+                <div class="contact-form">
+                    <form action="">
+                        <table class="contact-table">
+                            <tr>
+                                <th class="contact-item">名前</th>
+                                <td class="contact-body">
+                                    <input type="text" name="名前" class="form-text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="contact-item">カナ</th>
+                                <td class="contact-body">
+                                    <input type="text" name="カナ" class="form-text">
+                                </td>
+                            <tr>
+                                <th class="contact-item">メールアドレス</th>
+                                <td class="contact-body">
+                                    <input type="email" name="メールアドレス" class="form-text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="contact-item">チーズアカデミーを知ったきっかけ</th>
+                                <td class="contact-body">
+                                    <select name="きっかけ" id="">
+                                        <option value="google">google</option>
+                                        <option value="sns">sns</option>
+                                        <option value="introduction">紹介</option>
+                                        <option value="bychance">たまたま通りかかった</option>
+                                        <option value="other">その他</option>
+
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="contact-item">志望動機</th>
+                                <td class="contact-body">
+                                    <label class="motivation">
+                                        <input type="checkbox" name="志望動機" />
+                                        <span class="contact-skill-txt">企業をしたい</span>
+                                    </label>
+                                    <label class="motivation">
+                                        <input type="checkbox" name="志望動機" />
+                                        <span class="contact-skill-txt">チーズ系企業に就職・転職したい</span>
+                                    </label>
+                                    <label class="motivation">
+                                        <input type="checkbox" name="志望動機" />
+                                        <span class="contact-skill-txt">チーズと関わる仕事をしており、仕事に生かしたい</span>
+                                    </label>
+                                    <label class="motivation">
+                                        <input type="checkbox" name="志望動機" />
+                                        <span class="contact-skill-txt">チーズの教養を身につけたい</span>
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="contact-item">詳細</th>
+                                <td class="contact-body">
+                                    <textarea name="詳細" id="form-textarea" cols="30" rows="10"></textarea>
+                                </td>
+                            </tr>
+                        </table>
+                        <input class="contact-submit" type="submit" value="送信" />
+                        Ï
+                    </form>
+                </div>
+                <div id="footer">
+                    <p>2016 Cheeese Academy Tokyo All RIghts Reserved.</p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+		$('.question').on('click', function() {
+			$(this).next('.answer').slideToggle();
+		});
+	</script>
+</body>
+
+</html>
